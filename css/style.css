@@ -96,8 +96,8 @@ section {
   display: table;
   margin: 0;
   max-width: none;
-  color: white;
-  background-color: #12232E;
+  background-color: white; 
+  color: #343a40; 
   height: 100vh;
   }
   section:nth-of-type(2n) {
@@ -114,7 +114,8 @@ section {
     margin-top: 50px;
     margin-bottom: 50px;
     height: 50px;
-    padding: 50px;    
+    padding: 50px;
+    color: #007bff; /* Primary blue */
 }
 
 ul.info {
@@ -134,8 +135,8 @@ p.big {
 }
 
 
-.link { color: #ccffff; } 
-.link:hover { color: #a9a9a9; }
+.link { color: #007bff; /* Primary blue */} 
+.link:hover { color: #0056b3; /* Slightly darker blue */}
 
 
 
@@ -225,6 +226,7 @@ div.desc {
 
 .fa:hover {
     opacity: 0.7;
+    color: #007bff; /* Primary blue */
 }
 
 .fa-facebook {
@@ -260,5 +262,5 @@ div.desc {
 
 footer.page-footer {
   margin: 0;
-   background-color: gray;
+   background-color: #f8f9fa;
 }
