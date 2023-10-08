@@ -77,14 +77,14 @@ h1 {
  font-family: 'Playfair Display', serif;
  font-weight: 700;
  font-style: italic;
- color: #4DA8DA;
+ color: black;
  padding 10px;
 }
 
 h2, h3, h4, h5, h6 {
  font-family: 'Playfair Display', serif;
  font-weight: 600;
- color: #eeffff;
+ color: black;
 }
 
 
